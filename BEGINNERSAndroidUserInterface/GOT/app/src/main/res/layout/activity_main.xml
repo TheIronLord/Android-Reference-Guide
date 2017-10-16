@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.got.MainActivity">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/westerosBackgroundOne"
+                android:background="@drawable/westeros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/westerosBackgroundTwo"
+                android:background="@drawable/westeros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/westerosBackgroundOne"/>
+
+            <!--Dragonstone-->
+            <ImageView
+                android:id="@+id/dragonstoneImage"
+                android:src="@drawable/dragonstone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:paddingBottom="5dp"/>
+            <TextView
+                android:id="@+id/dragonstoneName"
+                android:text = "Name: Dragonstone"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/dragonstoneImage"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/dragonstoneLocation"
+                android:text = "Location: Dragonstone Island"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/dragonstoneName"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/dragonstoneRegion"
+                android:text = "Region: Blackwater Bay"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/dragonstoneLocation"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/dragonstoneType"
+                android:text = "Type: Castle"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/dragonstoneRegion"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:id="@+id/dragonstoneAge"
+                android:text = "Age: More than 500 years old"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/dragonstoneType"/>
+            <TextView
+                android:id="@+id/dragonstoneFounder"
+                android:text = "Founder: The Valyrian Freehold"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/dragonstoneAge"/>
+
+            <!--Harrenhal-->
+            <ImageView
+                android:id="@+id/harrenhalImage"
+                android:src="@drawable/harrenhal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_below="@id/dragonstoneFounder"
+                android:paddingTop="50dp"
+                android:paddingBottom="5dp"/>
+            <TextView
+                android:id="@+id/harrenhalName"
+                android:text = "Name: Harrenhal"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/harrenhalImage"/>
+            <TextView
+                android:id="@+id/harrenhalLocation"
+                android:text = "Location: Northern Shore of the Gods Eye"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/harrenhalName"/>
+            <TextView
+                android:id="@+id/harrenhalRegion"
+                android:text = "Region: Riverlands"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/harrenhalLocation"/>
+            <TextView
+                android:id="@+id/harrenhalType"
+                android:text = "Type: Castle"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/harrenhalRegion"/>
+            <TextView
+                android:id="@+id/harrenhalAge"
+                android:text = "Age: Approx. 300 Years Old"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/harrenhalType"/>
+            <TextView
+                android:id="@+id/harrenhalFounder"
+                android:text = "Founder: King Harren the Black"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/harrenhalAge"/>
+
+
+            <!--Casterly Rock-->
+            <ImageView
+                android:id="@+id/casterlyRockImage"
+                android:src="@drawable/casterlyrock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_below="@id/harrenhalFounder"
+                android:paddingTop="50dp"
+                android:paddingBottom="5dp"/>
+            <TextView
+                android:id="@+id/casterlyRockName"
+                android:text = "Name: Casterly Rock"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/casterlyRockImage"/>
+            <TextView
+                android:id="@+id/casterlyRockLocation"
+                android:text = "Location: The Westerlands"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/casterlyRockName"/>
+            <TextView
+                android:id="@+id/casterlyRockRegion"
+                android:text = "Region: Westeros"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/casterlyRockLocation"/>
+            <TextView
+                android:id="@+id/casterlyRockType"
+                android:text = "Type: Castle"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/casterlyRockRegion"/>
+            <TextView
+                android:id="@+id/casterlyRockAge"
+                android:text = "Age: According To Myth 6000 Years Old"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/casterlyRockType"/>
+            <TextView
+                android:id="@+id/casterlyRockFounder"
+                android:text = "Founder: According To Myth House Casterly"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/casterlyRockAge"/>
+
+            <!--Winterfell-->
+            <ImageView
+                android:id="@+id/winterfellImage"
+                android:src="@drawable/winterfell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_below="@id/casterlyRockFounder"
+                android:paddingTop="50dp"
+                android:paddingBottom="5dp"/>
+            <TextView
+                android:id="@+id/winterfellName"
+                android:text = "Name: Winterfell"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/winterfellImage"/>
+            <TextView
+                android:id="@+id/winterfellLocation"
+                android:text = "Location: The North"
+                android:textSize="15sp"
+                android:textColor="#009688"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/winterfellName"/>
+            <TextView
+                android:id="@+id/winterfellRegion"
+                android:text = "Region: Westeros"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/winterfellLocation"/>
+            <TextView
+                android:id="@+id/winterfellType"
+                android:text = "Type: Castle"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/winterfellRegion"/>
+            <TextView
+                android:id="@+id/winterfellAge"
+                android:text = "Age: According To Myth 8000 Years Old"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/winterfellType"/>
+            <TextView
+                android:id="@+id/winterfellFounder"
+                android:text = "Founder: Brandon the Builder"
+                android:textSize="15sp"
+                android:textColor="#00897b"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/winterfellAge"/>
+    </RelativeLayout>
+</ScrollView>
