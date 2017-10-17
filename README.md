@@ -6,3 +6,4 @@ This folder contains projects for building a simple user interface
 ### Current Projects
 * Happy Birthday Project
 * Greeting Card Project
+* Game Of Thrones Project
