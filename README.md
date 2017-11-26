@@ -1,5 +1,5 @@
 # ASUIReadme
-This repository has reference code for Android
+Android Projects that use xml to build a basic user interface
 
 ## Beginners Android User Interface
 
@@ -19,4 +19,4 @@ To run these projects on your computer make sure that you are running Android St
 If you are running into trouble running any project please email me at sajjadp92@outlook.com
 
 ### Contributors
-thelegion92 (sajjadp92@outlook.com)
+TheIronLord (sajjadp92@outlook.com)
